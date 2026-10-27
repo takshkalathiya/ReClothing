@@ -8,6 +8,7 @@
     "seed": "npm run seed --prefix server",
     "server": "npm run dev --prefix server",
     "client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
     "dev": "concurrently -n \"SERVER,CLIENT\" -c \"green,blue\" \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
     "start": "concurrently -n \"SERVER,CLIENT\" -c \"green,blue\" \"npm start --prefix server\" \"npm run dev --prefix client\""
   },
