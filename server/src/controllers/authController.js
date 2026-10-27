@@ -6,7 +6,7 @@ const asyncHandler = require('../utils/asyncHandler');
 const sendTokenResponse = (user, statusCode, res, message) => {
   const token = jwt.sign(
     { id: user._id },
-    process.env.JWT_SECRET || 'rewear_campus_super_secure_jwt_secret_key_2026_xyz',
+    process.env.JWT_SECRET || 'reclothing_campus_super_secure_jwt_secret_key_2026_xyz',
     { expiresIn: '7d' }
   );
 
@@ -68,7 +68,7 @@ const registerUser = asyncHandler(async (req, res) => {
     role: isAdmin ? 'admin' : 'user',
   });
 
-  sendTokenResponse(user, 201, res, 'Account created successfully! Welcome to ReWear.');
+  sendTokenResponse(user, 201, res, 'Account created successfully! Welcome to ReClothing.');
 });
 
 // @desc    Authenticate user & issue HTTP-only cookie

@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
   try {
-    const mongoUri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/rewear';
+    const mongoUri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/reclothing';
     
     // Mask password in logs to protect credentials in deployment output
     const maskedUri = mongoUri.replace(/(mongodb(?:\+srv)?:\/\/[^:]+:)([^@]+)(@.+)/, '$1*****$3');

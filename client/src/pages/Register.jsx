@@ -75,7 +75,7 @@ const Register = () => {
             <Sparkles className="w-6 h-6" />
           </div>
           <h1 className="text-2xl font-bold text-dark-900 font-editorial">
-            Join the ReWear Community
+            Join the ReClothing Community
           </h1>
           <p className="text-xs text-muted-600 mt-1">
             Create your campus profile to buy, sell, and swap pre-loved fashion.

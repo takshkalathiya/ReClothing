@@ -1,7 +1,7 @@
 {
-  "name": "rewear-server",
+  "name": "reclothing-server",
   "version": "1.0.0",
-  "description": "Express.js REST API for ReWear Campus Thrift Marketplace",
+  "description": "Express.js REST API for ReClothing Campus Thrift Marketplace",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
@@ -27,8 +27,8 @@
     "mongoose",
     "mongodb",
     "rest-api",
-    "rewear"
+    "reclothing"
   ],
-  "author": "ReWear Engineering Team",
+  "author": "ReClothing Engineering Team",
   "license": "ISC"
 }

@@ -1,4 +1,4 @@
-# ReWear — Campus Thrift & Clothing Exchange Marketplace
+# ReClothing — Campus Thrift & Clothing Exchange Marketplace
 
 > **"Wear More. Waste Less."**  
 > A peer-to-peer campus circular fashion marketplace built on the MERN stack (MongoDB, Express, React, Node.js) for college students to buy, sell, and exchange pre-loved clothing, shoes, bags, and textbooks.
@@ -29,7 +29,7 @@
 
 Demo Video Link : https://drive.google.com/file/d/1_hHOk7L7yqy881YpwEs4M9HLjTh-Bu1Y/view?usp=drive_link
 
-**ReWear** is a campus-focused circular economy web application designed to solve student wardrobe waste. College students frequently accumulate garments, winter wear, backpacks, sneakers, and course textbooks that go unused after a semester. ReWear provides a verified campus marketplace where students can discover affordable secondhand goods, list their pre-loved items for cash or trade, and schedule safe, localized on-campus meetups.
+**ReClothing** is a campus-focused circular economy web application designed to solve student wardrobe waste. College students frequently accumulate garments, winter wear, backpacks, sneakers, and course textbooks that go unused after a semester. ReClothing provides a verified campus marketplace where students can discover affordable secondhand goods, list their pre-loved items for cash or trade, and schedule safe, localized on-campus meetups.
 
 ---
 
@@ -41,7 +41,7 @@ Demo Video Link : https://drive.google.com/file/d/1_hHOk7L7yqy881YpwEs4M9HLjTh-B
 * **Inconvenient Resale Channels:** General marketplaces (e.g., eBay, Facebook Marketplace) involve expensive shipping fees, impersonal interactions, or untrusted strangers.
 
 ### The Solution
-ReWear connects verified college students within their specific college community:
+ReClothing connects verified college students within their specific college community:
 * **Zero Transaction Fees:** Direct student-to-student transactions with zero platform commissions.
 * **Dual Listing Types:** Support for both cash purchases (*For Sale*) and direct swaps (*For Exchange* with custom trade preferences).
 * **Safe Campus Meetups:** Encourages meeting in well-lit public campus locations (e.g., student unions, campus libraries).
@@ -96,7 +96,7 @@ ReWear connects verified college students within their specific college communit
 ```mermaid
 graph TD
     Client[React + Vite Frontend<br/>:5173] -->|HTTP-only JWT Cookie / REST APIs| Server[Express.js REST API<br/>:5001]
-    Server -->|Mongoose ORM| DB[(MongoDB Database<br/>:27017/rewear)]
+    Server -->|Mongoose ORM| DB[(MongoDB Database<br/>:27017/reclothing)]
 
     subgraph Security Layer
         Helmet[Helmet HTTP Headers]
@@ -257,7 +257,7 @@ VITE_API_URL=http://localhost:5001/api
 
 ## 🌱 Database Seeding & Demo Accounts
 
-ReWear includes an automated seed script that populates realistic campus users, 14 diverse listings across all categories, and sample trade requests.
+ReClothing includes an automated seed script that populates realistic campus users, 14 diverse listings across all categories, and sample trade requests.
 
 To seed the database:
 ```bash
@@ -428,7 +428,7 @@ The application features full end-to-end verification covering:
 
 ### Current Scope & Limitations
 * **Local Image URLs:** Images currently support valid public URLs (e.g. Unsplash, Cloudinary, Imgur) to ensure high reliability across local demonstration environments.
-* **Non-Payment Workflow:** As per the project design, ReWear deliberately does not handle real card payments. Purchase requests indicate firm interest for on-campus cash/Venmo handoffs.
+* **Non-Payment Workflow:** As per the project design, ReClothing deliberately does not handle real card payments. Purchase requests indicate firm interest for on-campus cash/Venmo handoffs.
 
 ### Future Scope
 * **Direct Real-Time Chat:** WebSockets / Socket.io for instant campus messaging between buyer and seller.
@@ -439,4 +439,4 @@ The application features full end-to-end verification covering:
 
 ## 👥 Authors
 * Developed for **College End-Term Capstone Project**
-* ReWear Engineering Team
+* ReClothing Engineering Team

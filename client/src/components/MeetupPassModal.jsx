@@ -27,7 +27,7 @@ const MeetupPassModal = ({ isOpen, onClose, request }) => {
                 Campus Meetup Pass
               </h3>
               <p className="text-[11px] text-forest-200">
-                Official ReWear Physical Handshake Receipt
+                Official ReClothing Physical Handshake Receipt
               </p>
             </div>
           </div>

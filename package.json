@@ -1,7 +1,7 @@
 {
-  "name": "rewear-monorepo",
+  "name": "reclothing-monorepo",
   "version": "1.0.0",
-  "description": "ReWear - Campus Thrift & Clothing Exchange Marketplace",
+  "description": "ReClothing - Campus Thrift & Clothing Exchange Marketplace",
   "private": true,
   "scripts": {
     "install:all": "npm install && npm install --prefix server && npm install --prefix client",
@@ -21,6 +21,6 @@
     "clothing-exchange",
     "sustainable-fashion"
   ],
-  "author": "ReWear Engineering Team",
+  "author": "ReClothing Engineering Team",
   "license": "ISC"
 }

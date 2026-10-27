@@ -24,7 +24,7 @@ const protect = async (req, res, next) => {
   try {
     const decoded = jwt.verify(
       token,
-      process.env.JWT_SECRET || 'rewear_campus_super_secure_jwt_secret_key_2026_xyz'
+      process.env.JWT_SECRET || 'reclothing_campus_super_secure_jwt_secret_key_2026_xyz'
     );
 
     const user = await User.findById(decoded.id).select('-password');

@@ -13,7 +13,7 @@ const startServer = async () => {
     await connectDB();
 
     const server = app.listen(PORT, () => {
-      console.log(`[SERVER] ReWear API running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`);
+      console.log(`[SERVER] ReClothing API running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`);
       console.log(`[SERVER] Health check available at http://localhost:${PORT}/api/health`);
     });
 

@@ -126,7 +126,7 @@ const Profile = () => {
               </p>
               <p className="text-xs text-muted-500 mt-1 flex items-center gap-1.5">
                 <Calendar className="w-3.5 h-3.5" />
-                <span>Joined ReWear on {formatDate(user?.createdAt)}</span>
+                <span>Joined ReClothing on {formatDate(user?.createdAt)}</span>
               </p>
             </div>
           </div>

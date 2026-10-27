@@ -11,7 +11,7 @@ const api = axios.create({
 // Request interceptor to attach Bearer token fallback for cross-domain deployments (Vercel <-> Render)
 api.interceptors.request.use(
   (config) => {
-    const token = typeof window !== 'undefined' ? localStorage.getItem('rewear_token') : null;
+    const token = typeof window !== 'undefined' ? localStorage.getItem('reclothing_token') : null;
     if (token) {
       config.headers.Authorization = `Bearer ${token}`;
     }

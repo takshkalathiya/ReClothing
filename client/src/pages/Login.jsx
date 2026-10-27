@@ -63,7 +63,7 @@ const Login = () => {
             <Lock className="w-6 h-6" />
           </div>
           <h1 className="text-2xl font-bold text-dark-900 font-editorial">
-            Welcome Back to ReWear
+            Welcome Back to ReClothing
           </h1>
           <p className="text-xs text-muted-600 mt-1">
             Sign in to manage your campus listings and trade requests.

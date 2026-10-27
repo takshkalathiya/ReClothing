@@ -228,7 +228,7 @@ const exportPlatformData = asyncHandler(async (req, res) => {
   }).join('\n');
 
   res.setHeader('Content-Type', 'text/csv');
-  res.setHeader('Content-Disposition', 'attachment; filename="ReWear_Platform_Audit.csv"');
+  res.setHeader('Content-Disposition', 'attachment; filename="ReClothing_Platform_Audit.csv"');
   res.status(200).send(csvHeaders + csvRows);
 });
 

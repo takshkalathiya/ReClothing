@@ -443,7 +443,7 @@ const ListingDetails = () => {
           <div className="flex items-start gap-2.5 p-3.5 bg-amber-50/70 border border-amber-200/70 rounded-2xl text-[11px] text-amber-900 leading-relaxed">
             <Info className="w-4 h-4 text-amber-700 shrink-0 mt-0.5" />
             <span>
-              <strong>ReWear Campus Note:</strong> Requests signal intent to buy or trade. No online credit card transactions occur on ReWear. Always meet peers in verified public campus areas.
+              <strong>ReClothing Campus Note:</strong> Requests signal intent to buy or trade. No online credit card transactions occur on ReClothing. Always meet peers in verified public campus areas.
             </span>
           </div>
         </div>

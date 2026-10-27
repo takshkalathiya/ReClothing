@@ -34,7 +34,7 @@ export const AuthProvider = ({ children }) => {
     if (res && res.data) {
       setUser(res.data);
       if (res.data.token) {
-        localStorage.setItem('rewear_token', res.data.token);
+        localStorage.setItem('reclothing_token', res.data.token);
       }
       toast.success(`Welcome back, ${res.data.name}!`);
     }
@@ -46,9 +46,9 @@ export const AuthProvider = ({ children }) => {
     if (res && res.data) {
       setUser(res.data);
       if (res.data.token) {
-        localStorage.setItem('rewear_token', res.data.token);
+        localStorage.setItem('reclothing_token', res.data.token);
       }
-      toast.success('Registration successful! Welcome to ReWear.');
+      toast.success('Registration successful! Welcome to ReClothing.');
     }
     return res;
   };
@@ -57,11 +57,11 @@ export const AuthProvider = ({ children }) => {
     try {
       await authApi.logout();
       setUser(null);
-      localStorage.removeItem('rewear_token');
+      localStorage.removeItem('reclothing_token');
       toast.success('Signed out successfully.');
     } catch (err) {
       setUser(null);
-      localStorage.removeItem('rewear_token');
+      localStorage.removeItem('reclothing_token');
     }
   };
 

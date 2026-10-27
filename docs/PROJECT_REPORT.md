@@ -1,12 +1,12 @@
-# ReWear — Campus Thrift & Clothing Exchange Marketplace
+# ReClothing — Campus Thrift & Clothing Exchange Marketplace
 ## College End-Term Project Report
 
 ---
 
 ## 1. Introduction
-**ReWear** is a full-stack campus secondhand marketplace and circular clothing exchange web application developed using the MERN stack (MongoDB, Express.js, React, Node.js). It provides an intuitive, trustworthy, and student-focused digital platform that enables university students to list, browse, purchase, and swap pre-owned clothing, footwear, accessories, bags, and academic textbooks within their college community.
+**ReClothing** is a full-stack campus secondhand marketplace and circular clothing exchange web application developed using the MERN stack (MongoDB, Express.js, React, Node.js). It provides an intuitive, trustworthy, and student-focused digital platform that enables university students to list, browse, purchase, and swap pre-owned clothing, footwear, accessories, bags, and academic textbooks within their college community.
 
-Under the motto **"Wear More. Waste Less."**, ReWear tackles the growing environmental footprint of fast fashion and addresses the seasonal financial challenges faced by college students.
+Under the motto **"Wear More. Waste Less."**, ReClothing tackles the growing environmental footprint of fast fashion and addresses the seasonal financial challenges faced by college students.
 
 ---
 
@@ -19,7 +19,7 @@ College students frequently encounter two intertwined problems every academic ye
 ---
 
 ## 3. Objectives
-The primary objectives of ReWear are:
+The primary objectives of ReClothing are:
 * **Facilitate Local Circular Consumption:** Enable effortless student-to-student exchange and resale of pre-owned items.
 * **Support Dual Listing Modes:** Provide flexibility for both direct cash purchases (*For Sale*) and non-monetary clothing trades (*For Exchange* with custom trade preferences).
 * **Eliminate Transaction Friction:** Enable students to coordinate convenient, cost-free, on-campus physical handoffs in verified public spaces.
@@ -43,14 +43,14 @@ The primary objectives of ReWear are:
 * User Profiles & Saved Wishlist Management.
 
 ### Out of Scope:
-* Online credit card payment processing (ReWear intentionally uses on-campus peer handshakes to avoid merchant fees and ensure verified physical inspection).
+* Online credit card payment processing (ReClothing intentionally uses on-campus peer handshakes to avoid merchant fees and ensure verified physical inspection).
 * Cross-country parcel delivery and third-party logistics.
 
 ---
 
 ## 5. Existing System Limitations vs. Proposed System
 
-| Dimension | Existing General Resale (eBay, Poshmark) | Campus Chat Groups (WhatsApp, Discord) | ReWear Campus Marketplace |
+| Dimension | Existing General Resale (eBay, Poshmark) | Campus Chat Groups (WhatsApp, Discord) | ReClothing Campus Marketplace |
 | :--- | :--- | :--- | :--- |
 | **Fees** | 10%–20% seller commission | Zero, but disorganized | **0% Platform Fees** |
 | **Fulfillment** | Shipping delays & postage costs | In-person, but lost in chat history | **Organized On-Campus Meetups** |
@@ -131,7 +131,7 @@ sequenceDiagram
     autonumber
     actor Buyer as Student Buyer
     actor Seller as Student Seller
-    participant Web as ReWear Frontend
+    participant Web as ReClothing Frontend
     participant API as Express API
     participant DB as MongoDB
 
@@ -316,4 +316,4 @@ The test suite tested all 20 critical API contracts against the live server:
 ---
 
 ## 14. Conclusion
-The **ReWear** project was successfully architected, developed, tested, and documented to production standards. It demonstrates a complete, genuine MERN stack application fulfilling all requirements: secure cookie-based authentication, database persistence, search and filtering, buyer-seller transactional workflows, live analytics visualizations, and responsive styling. ReWear stands ready for college end-term evaluation and campus deployment.
+The **ReClothing** project was successfully architected, developed, tested, and documented to production standards. It demonstrates a complete, genuine MERN stack application fulfilling all requirements: secure cookie-based authentication, database persistence, search and filtering, buyer-seller transactional workflows, live analytics visualizations, and responsive styling. ReClothing stands ready for college end-term evaluation and campus deployment.

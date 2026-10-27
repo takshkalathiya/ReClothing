@@ -14,7 +14,7 @@ const Footer = () => {
                 <span className="font-editorial italic">R</span>
               </div>
               <span className="text-xl font-bold tracking-tight text-forest-900 font-editorial">
-                ReWear
+                ReClothing
               </span>
             </Link>
             <p className="text-xs text-muted-600 leading-relaxed">
@@ -108,7 +108,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-500">
-          <p>© {new Date().getFullYear()} ReWear Marketplace. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} ReClothing Marketplace. All rights reserved.</p>
           <p className="flex items-center gap-1.5">
             Designed with <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" /> for College End-Term Project
           </p>

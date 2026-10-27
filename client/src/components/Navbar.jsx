@@ -103,7 +103,7 @@ const Navbar = () => {
             </div>
             <div>
               <span className="text-xl font-bold tracking-tight text-forest-900 font-editorial">
-                ReWear
+                ReClothing
               </span>
               <span className="hidden sm:block text-[10px] uppercase tracking-wider font-semibold text-muted-500">
                 Campus Thrift

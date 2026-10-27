@@ -63,7 +63,7 @@ app.use(cookieParser());
 app.get('/api/health', (req, res) => {
   res.status(200).json({
     success: true,
-    message: 'ReWear API is online and healthy.',
+    message: 'ReClothing API is online and healthy.',
     timestamp: new Date().toISOString(),
   });
 });

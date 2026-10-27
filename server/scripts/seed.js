@@ -13,7 +13,7 @@ const Notification = require('../src/models/Notification');
 
 const seedData = async () => {
   try {
-    const mongoUri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/rewear';
+    const mongoUri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/reclothing';
     console.log(`Connecting to MongoDB at ${mongoUri}...`);
     await mongoose.connect(mongoUri);
     console.log('MongoDB connected for seeding.');
