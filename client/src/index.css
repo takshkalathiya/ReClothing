@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F8F7F2;
+    color: #20251F;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+@layer components {
+  /* Editorial & Modern Buttons */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full font-medium text-sm text-white bg-forest-800 hover:bg-forest-900 active:scale-[0.98] transition-all duration-200 shadow-sm disabled:opacity-50 disabled:cursor-not-allowed disabled:active:scale-100;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full font-medium text-sm text-forest-900 bg-forest-100 hover:bg-forest-200 active:scale-[0.98] transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full font-medium text-sm text-dark-900 bg-white border border-border hover:bg-ivory-50 hover:border-dark-800 active:scale-[0.98] transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-danger {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-full font-medium text-sm text-rose-700 bg-rose-50 border border-rose-200 hover:bg-rose-100 active:scale-[0.98] transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 px-3 py-1.5 rounded-lg font-medium text-sm text-muted-600 hover:text-dark-900 hover:bg-black/5 transition-colors duration-150;
+  }
+
+  /* Input fields */
+  .input-field {
+    @apply w-full px-4 py-2.5 bg-white border border-border rounded-xl text-dark-900 placeholder-muted-400 text-sm focus:outline-none focus:ring-2 focus:ring-forest-800/20 focus:border-forest-800 transition-all duration-200 disabled:bg-ivory-200 disabled:cursor-not-allowed;
+  }
+
+  .select-field {
+    @apply w-full px-4 py-2.5 bg-white border border-border rounded-xl text-dark-900 text-sm focus:outline-none focus:ring-2 focus:ring-forest-800/20 focus:border-forest-800 transition-all duration-200;
+  }
+
+  /* Badges */
+  .badge {
+    @apply inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium tracking-wide;
+  }
+
+  .badge-sale {
+    @apply bg-amber-50 text-amber-800 border border-amber-200/60;
+  }
+
+  .badge-exchange {
+    @apply bg-emerald-50 text-emerald-800 border border-emerald-200/60;
+  }
+
+  .badge-condition {
+    @apply bg-ivory-200 text-dark-800 border border-border;
+  }
+
+  .badge-status-active {
+    @apply bg-emerald-50 text-emerald-800 border border-emerald-200;
+  }
+
+  .badge-status-reserved {
+    @apply bg-blue-50 text-blue-800 border border-blue-200;
+  }
+
+  .badge-status-sold {
+    @apply bg-gray-100 text-gray-700 border border-gray-300;
+  }
+
+  .badge-status-exchanged {
+    @apply bg-purple-50 text-purple-800 border border-purple-200;
+  }
+
+  /* Cards */
+  .card-premium {
+    @apply bg-white border border-border rounded-2xl transition-all duration-300;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #D0D4CA;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #234D3C;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
