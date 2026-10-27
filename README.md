@@ -27,7 +27,7 @@
 
 ## 🌟 Project Overview
 
-Demo Video Link : https://drive.google.com/file/d/1_hHOk7L7yqy881YpwEs4M9HLjTh-Bu1Y/view?usp=drive_link
+Demo Video Link : [https://drive.google.com/file/d/1A4YrX9F0bX9eLzdVdUElOYeOaaKZQsdC/view?usp=sharing]
 
 **ReClothing** is a campus-focused circular economy web application designed to solve student wardrobe waste. College students frequently accumulate garments, winter wear, backpacks, sneakers, and course textbooks that go unused after a semester. ReClothing provides a verified campus marketplace where students can discover affordable secondhand goods, list their pre-loved items for cash or trade, and schedule safe, localized on-campus meetups.
 
